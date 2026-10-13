@@ -1,0 +1,11 @@
+[package]
+name = "rreia-jev"
+version = "0.2.0"
+edition = "2021"
+description = "Jev Local do RREIA: servidor de decisões tipadas (choice, score, noul) sobre um modelo local, com admissão por hardware, fila de prioridade e rastro de auditoria"
+license = "MIT"
+
+[dependencies]
+serde_json = "1"
+tiny_http = "0.12"
+ureq = { version = "2", default-features = false, features = ["json"] }
